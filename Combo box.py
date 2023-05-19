@@ -14,7 +14,7 @@ root.title("Combo Box")
 
 
 #Creating an array of objects called "items"
-items = ["Item1", "Item 2", "Item 3", "Item 4", "Item 5"]
+items = ["Item 1", "Item 2", "Item 3", "Item 4", "Item 5"]
 #Create the combo box object put he object in the root window and populate values
 combo_box = ttk.Combobox(root, values=items)
 
